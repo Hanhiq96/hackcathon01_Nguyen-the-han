@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    padding: 20px;
+    background-color:rgb(240, 100, 49);
+    color: white;
+    justify-content:space-around
+    
+}
+h3{
+    line-height: 35px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signlogin a {
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    line-height: 35px;
+    
+}
+.search input{
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+.search span{
+    padding: 3px;
+    background-color: rgb(238, 245, 238);
+    color: rgb(245, 68, 9);
+    line-height: 35px;
+}
+.main-left{
+    background-color: rgb(249, 235, 235);
+    padding: 10px;
+    height: 260px;
+}
+.menu{
+    border-bottom: 1px solid rgb(219, 212, 212);
+    padding: 15px;
+}
+.circle{
+   text-align: center;
+   margin-top: 30px;
+   color: rgb(163, 174, 174);
+}
+.container li {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+.container span{
+    margin-left: 20px; 
+    
+}
+li:hover{
+    color: coral;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    border-bottom: 3px solid rgb(242, 88, 33);
+}
+.main-image{
+    display: flex;
+}
+img{
+    width: 200px;
+}
+
+/* image  */
+
+p{
+    font-size: 20px;
+    text-align:justify;
+    padding-bottom: 7px;
+}
+.img-alt span{
+    color: coral;
+    padding-bottom: 7px;
+    
+    
+}
+.commen{
+    display: flex;
+    justify-content:space-between;
+    margin:7px; 
+}
+.commen span{
+    color: dodgerblue;
+
+}
+.comment{
+    display: flex;
+    justify-content:space-between;
+    margin:5px; 
+}
+.img-alt{
+    border: 1px solid rgb(230, 225, 225);
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+   
+}
+/* fotter  */
+
+.fotter{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+    border-bottom:3px solid black ;
+
+}
+h4{
+    font-size: 24px;
+}
+.fotter-bot{
+    margin-top: 20px;
+    color: grey;
+}
+.container-total{
+    background-color: rgb(232, 229, 229);
+}
